@@ -1,4 +1,5 @@
 # IA Tabela Verdade Keras
+![inicio](https://www.imagensanimadas.com/data/media/562/linha-imagem-animada-0398.gif)<br>
 Projeto de IA usando a Tabela Verdade para uma previsão.
 
 O projeto é uma implementação de uma Rede Neural Artificial (RNA) em Python utilizando a biblioteca Keras. O objetivo da RNA é realizar a previsão da tabela verdade de uma porta lógica XOR, que é uma operação lógica que retorna verdadeiro apenas quando as entradas são diferentes entre si.
@@ -46,3 +47,9 @@ Para rodar este código, você precisa ter as bibliotecas Numpy e Keras instalad
 ![Keras](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/install%202.png)
 
 Depois de instalar as bibliotecas, você pode criar um novo arquivo Python em seu editor de texto favorito (como o Visual Studio Code ou o Sublime Text) e copiar o código que eu forneci. Em seguida, basta salvar o arquivo com um nome (por exemplo, "previsao.py") e rodá-lo no terminal ou prompt de comando, digitando:
+
+![Rodando](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/rodando.png)
+
+O código irá executar e imprimir os resultados no terminal ou prompt de comando. É importante lembrar que o código deve estar no mesmo diretório (pasta) em que o terminal ou prompt de comando está apontando. Se o código estiver em um diretório diferente, você precisará navegar até o diretório correto no terminal ou prompt de comando antes de executá-lo.
+
+![Linha separação](https://pa1.narvii.com/6350/7d8ec35e754e829df6b350a891d7fb2cc3bc20d3_hq.gif)
