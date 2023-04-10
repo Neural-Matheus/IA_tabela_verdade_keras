@@ -14,28 +14,28 @@ Para criar uma IA em Keras que preveja a tabela verdade, podemos utilizar uma re
 
 Primeiramente, vamos importar as bibliotecas necessárias e criar a tabela verdade:<br>
 
-![Parte 1](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/1.png)<br><br>
-![Parte 2](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/2.png)
+![Parte 1](https://cdn.discordapp.com/attachments/690245537575731225/1094991964883128400/1.png)<br><br>
+![Parte 2](https://cdn.discordapp.com/attachments/690245537575731225/1094991481988722748/2.png)
 
 Em seguida, vamos definir a nossa rede neural. Para isso, precisamos definir a função de ativação que será usada nos neurônios. Vamos usar a função sigmoide, que é uma função matemática que comprime qualquer número real em um valor entre 0 e 1. Ela é definida como:
 
-![Parte 3](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/3.png)
+![Parte 3](https://cdn.discordapp.com/attachments/690245537575731225/1094991482475249724/3.png)
 
 Agora, vamos criar a nossa rede neural com Keras. Usaremos a classe Sequential, que permite criar uma pilha linear de camadas de rede neural. Adicionaremos uma camada de entrada com duas entradas binárias, uma camada oculta com 4 neurônios e uma camada de saída com uma saída binária. Todas as camadas usarão a função sigmoide como função de ativação.
 
-![Parte 4](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/4.png)
+![Parte 4](https://cdn.discordapp.com/attachments/690245537575731225/1094991482789843044/4.png)
 
 Agora, vamos compilar o modelo. Usaremos a função de perda binary_crossentropy, que é comumente usada para problemas de classificação binária, e o otimizador adam, que é um algoritmo de otimização comum para redes neurais.
 
-![Parte 5](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/5.png)
+![Parte 5](https://cdn.discordapp.com/attachments/690245537575731225/1094991483091824670/5.png)
 
 Finalmente, vamos treinar o modelo. Usaremos 500 épocas de treinamento e um tamanho de lote (batch size) de 1.
 
-![Parte 6](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/6.png)
+![Parte 6](https://cdn.discordapp.com/attachments/690245537575731225/1094991483469299812/6.png)
 
 Depois de treinado, podemos usar o modelo para fazer previsões. Por exemplo, podemos prever o resultado da tabela verdade para as entradas [0, 1]:
 
-![Parte 7](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/7.png)
+![Parte 7](https://cdn.discordapp.com/attachments/690245537575731225/1094991483754532974/7.png)
 
 A saída indica que a rede neural prevê que o resultado da tabela verdade para as entradas [0, 1]
 
@@ -43,12 +43,12 @@ A saída indica que a rede neural prevê que o resultado da tabela verdade para 
 
 Para rodar este código, você precisa ter as bibliotecas Numpy e Keras instaladas em seu ambiente Python. Você pode instalá-las utilizando o pip, que é o gerenciador de pacotes padrão do Python. Basta abrir o terminal ou prompt de comando e digitar os seguintes comandos:
 
-![Numpy](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/install%201.png)<br>
-![Keras](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/install%202.png)
+![Numpy](https://cdn.discordapp.com/attachments/690245537575731225/1094991484035543130/install_1.png)<br>
+![Keras](https://cdn.discordapp.com/attachments/690245537575731225/1094991484316549130/install_2.png)
 
 Depois de instalar as bibliotecas, você pode criar um novo arquivo Python em seu editor de texto favorito (como o Visual Studio Code ou o Sublime Text) e copiar o código que eu forneci. Em seguida, basta salvar o arquivo com um nome (por exemplo, "previsao.py") e rodá-lo no terminal ou prompt de comando, digitando:
 
-![Rodando](https://github.com/zackkz/IA_tabela_verdade_keras/blob/main/rodando.png)
+![Rodando](https://cdn.discordapp.com/attachments/690245537575731225/1094991484605976607/rodando.png)
 
 O código irá executar e imprimir os resultados no terminal ou prompt de comando. É importante lembrar que o código deve estar no mesmo diretório (pasta) em que o terminal ou prompt de comando está apontando. Se o código estiver em um diretório diferente, você precisará navegar até o diretório correto no terminal ou prompt de comando antes de executá-lo.
 
